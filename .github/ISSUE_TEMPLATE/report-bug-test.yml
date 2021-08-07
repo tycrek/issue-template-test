@@ -58,3 +58,13 @@ body:
     description: Which version of ass does this bug occur in?
   validations:
     required: true
+- type: dropdown
+  id: deployment
+  attributes:
+    label: Deployment
+    description: Manual install or Docker?
+    options:
+    - Manual
+    - Docker
+  validations:
+    required: true
