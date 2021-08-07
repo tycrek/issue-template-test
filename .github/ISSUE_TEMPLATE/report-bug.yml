@@ -5,7 +5,8 @@ labels: bug
 body:
 - type: markdown
   attributes:
-    value: "## Bug report"
+    value: |
+      Bug report
 - type: checkboxes
   attributes:
     label: Is there an existing Issue for this bug?
@@ -43,7 +44,8 @@ body:
     render: text
 - type: markdown
   attributes:
-    value: "### Environment details"
+    value: |
+      Environment details
 - type: input
   attributes:
     label: ass version
@@ -54,14 +56,18 @@ body:
   attributes:
     label: Deployment
     description: Manual install or Docker?
-    options: [Manual, Docker]
+    options:
+    - Manual
+    - Docker
   validations:
     required: true
 - type: dropdown
   attributes:
     label: File storage
     description: Where are you storing files?
-    options: [Local, S3]
+    options:
+    - Local
+    - S3
   validations:
     required: true
 - type: input
