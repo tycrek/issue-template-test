@@ -51,3 +51,10 @@ body:
   attributes:
     value: |
       ### Environment details
+- type: input
+  id: ass-version
+  attributes:
+    label: ass version
+    description: Which version of ass does this bug occur in?
+  validations:
+    required: true
