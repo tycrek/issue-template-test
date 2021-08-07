@@ -83,7 +83,6 @@ body:
   attributes:
     label: Operating system
     description: What is the name and version of the OS?
-    placholder: i.e. Ubuntu 18.04, Windows 10
   validations:
     required: true
 - type: input
@@ -91,7 +90,6 @@ body:
   attributes:
     label: Node version
     description: What is the version of Node.js?
-    placeholder: i.e. v14.17.3
   validations:
     required: true
 - type: input
@@ -99,7 +97,6 @@ body:
   attributes:
     label: StorageEngine
     description: How are you storing your data?
-    placeholder: i.e. JSON, PostgreSQL, etc.
 - type: checkboxes
   id: reverse-proxy
   attributes:
@@ -112,7 +109,6 @@ body:
   attributes:
     label: Reverse proxy software
     description: If you are using a reverse proxy, what is the name and version?
-    placeholder: i.e. nginx 1.13.1
 - type: checkboxes
   id: cloudflare
   attributes:

@@ -56,7 +56,6 @@ body:
   attributes:
     label: ass version
     description: Which version of ass does this bug occur in?
-    placeholder: test
   validations:
     required: true
 - type: dropdown
