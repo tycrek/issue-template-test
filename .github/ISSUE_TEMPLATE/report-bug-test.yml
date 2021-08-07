@@ -6,7 +6,7 @@ body:
 - type: markdown
   attributes:
     value: |
-      Bug report
+      ## Bug report
 - type: checkboxes
   id: existing-issue
   attributes:
@@ -50,4 +50,4 @@ body:
 - type: markdown
   attributes:
     value: |
-      Environment details
+      ### Environment details
