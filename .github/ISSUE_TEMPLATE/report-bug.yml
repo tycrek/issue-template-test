@@ -4,7 +4,8 @@ title: "[BUG] Title"
 labels: bug
 body:
 - type: markdown
-  value: "## Bug report"
+  attributes:
+    value: "## Bug report"
 - type: checkboxes
   attributes:
     label: Is there an existing Issue for this bug?
@@ -41,7 +42,8 @@ body:
     description: If any errors are encountered, please attach the logs
     render: text
 - type: markdown
-  value: "### Environment details"
+  attributes:
+    value: "### Environment details"
 - type: input
   attributes:
     label: ass version
