@@ -29,3 +29,25 @@ body:
     description: What happens instead?
   validations:
     required: true
+- type: textarea
+  id: steps-to-reproduce
+  attributes:
+    label: Steps to reproduce
+    description: How can we reproduce this bug?
+    placeholder: |
+      1. Go to '...'
+      2. Click on '....'
+      3. Scroll down to '....'
+      4. See error
+  validations:
+    required: false
+- type: textarea
+  id: logs
+  attributes:
+    label: Logs (optional)
+    description: If any errors are encountered, please attach the logs
+    render: text
+- type: markdown
+  attributes:
+    value: |
+      Environment details
