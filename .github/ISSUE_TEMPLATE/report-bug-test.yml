@@ -83,6 +83,5 @@ body:
   attributes:
     label: Operating system
     description: What is the name and version of the OS?
-    placholder: i.e. Ubuntu 18.04, Windows 10
   validations:
     required: true
