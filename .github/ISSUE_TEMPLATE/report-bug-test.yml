@@ -1,0 +1,31 @@
+name: Report bug (testing)
+description: Report a new bug
+title: "[BUG] Title"
+labels: bug
+body:
+- type: markdown
+  attributes:
+    value: |
+      Bug report
+- type: checkboxes
+  id: existing-issue
+  attributes:
+    label: Is there an existing Issue for this bug?
+    description: Search for an existing issue to avoid duplicates.
+    options:
+    - label: I have searched the existing issues
+      required: true
+- type: textarea
+  id: expected-behavior
+  attributes:
+    label: Expected behavior
+    description: What should happen?
+  validations:
+    required: true
+- type: textarea
+  id: actual-behavior
+  attributes:
+    label: Actual behavior
+    description: What happens instead?
+  validations:
+    required: true
